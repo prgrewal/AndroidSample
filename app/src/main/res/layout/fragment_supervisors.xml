@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <TableRow
+        android:id="@+id/tableRowSupervisors1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/txtSupervisorImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#551a8b"
+            android:fontFamily="cursive"
+            android:text="Picture"/>
+        <TextView
+            android:id="@+id/txtSupervisorUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#551a8b"
+            android:fontFamily="cursive"
+            android:text="Username"/>
+        <TextView
+            android:id="@+id/txtSupervisorPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#551a8b"
+            android:fontFamily="cursive"
+            android:text="Phone Number"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRowSupervisors2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:gravity="center_horizontal">
+        <ListView
+            android:id="@+id/list_sup_image" />
+        <ListView
+            android:id="@+id/list_sup_username" />
+        <ListView
+            android:id="@+id/list_sup_phone" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRowSupervisors3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/supervisoradd_btn"
+            android:text="ADD +"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_span="3"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#2D63A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="125dp"
+            />
+    </TableRow>
+</TableLayout>

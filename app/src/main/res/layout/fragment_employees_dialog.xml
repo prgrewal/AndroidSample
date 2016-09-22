@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg">
+
+    <Spinner
+        android:id="@+id/spinner_emp_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_emp_department"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_emp_supervisor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"></Spinner>
+
+
+    <Button
+        android:id="@+id/add_emp_btn"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#2D63A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add Picture" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/okayemp_btn"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#2D63A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Okay" />
+
+        <Button
+            android:id="@+id/cancelemp_btn"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#2D63A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
